@@ -11,6 +11,25 @@ const Navbar = () => {
                 <h1><MdTravelExplore className='icon'/>..Travel.</h1>  
                 </a>
             </div>
+            <div className="navBar">
+              <ul className="navList flex">
+                <li className="navItem">
+                  <a href="#" className="navLink">Home</a>
+                </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">Packages</a>
+                </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">Shop</a>
+                </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">About</a>
+                </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">Pages</a>
+                </li>
+              </ul>
+            </div>
         </header>
     </section>
   )
