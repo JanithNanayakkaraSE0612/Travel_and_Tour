@@ -1,95 +1,109 @@
-:root{
-    --PrimaryColor:  hsl(199, 100%, 33%);
-  --secondaryColors: hsl (187, 85%, -43%);
-  --gradientColor: linear-gradient(from-right,
-  hsl(187, 85%, 43%), hsl(199,100%, 33%));
-  -whiteColor: hsl(0,0%, 100%);
-  --blackColor: ☐ hsl(201, 33%, 16%);
-  --text-color: hsl(240,4%,36%);
-  --whiteColorDeam: hsl(0,0%,93%);
-  --grayText: rgb(192,190,190);
-  ---inputColor: rgb(239, 239, 239);
-  ---bodycolor: rgb(240,240,246);
-  --cardbg: rgb(225, 225, 235);
-}
-.header{
-    position:fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--whiteColorDeam);
+.navbar {
     width: 100%;
-    padding: 1rem;
-    z-index: 1000;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+}
 
-    .logo{
-        color: var(--blackColor);
-        font-weight: 600;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
+.navbar-bg {
+    background-color: #f5f5f5;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+.hamburger {
+    display: none;
+    /* padding: 1rem; */
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: -100vh;
+        left: 0;
+        position: absolute;
+        justify-content: space-between;
+        /* align-items: center; */
+        /* color: rgba(255, 255, 255, .95); */
+        background-color: #f5f5f5;
+        transition: 0.3s;
+        color: #000;
     }
 
-    @media screen and (max-width:728px) {
-        .navBar{
-            position: absolute;
-            background: var(--whiteColorDeam);
-            height: max-content;
-            width: 80%;
-            border-radius: 1rem;
-            top: 6rem;
-            left: 50%;
-            transform: translate(-50%);
-            z-index: 2000;
-            box-shadow: 0 2px 4px rgba(2,15,29,0.984);
-            transition: .1s ease-in-out;
-        }
-        .navList{
-            flex-direction:column ;
-            justify-content: center;
-            width: 100%;
-            margin: auto;
-            padding: .5rem 0;
-
-            .navItem{
-                padding: .5rem 0;
-
-                .navLink{
-                    color: var(--text-color);
-                    font-size: .9rem;
-                    font-weight: 600;
-                    &:hover{
-                        color: var(--PrimaryColor);
-                    }
-                }
-                .btn{
-                    margin-top: 1rem;
-
-                    a{
-                       font-weight: 600;
-                       color: var(--whiteColorDeam); 
-                    }
-                }
-            }
-            .closeNavBar{
-                position: absolute;
-                top: 1rem;
-                right: 1.5rem;
-                color: var(--PrimaryColor);
-                &:hover{
-                    color: var(--secondaryColors);
-                }
-            }
-        }
-      
+    .dark {
+        color: #000;
     }
-    .toggleNavBar {
-        .icon{
-            font-size: 25px;
-            color: var(--PrimaryColor);
-            }
-            &:hover.icon{
-                color: var(--secondaryColors);
-            }
+
+    .active {
+        top: 80px;
     }
+
+    .mobile-menu li {
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .mobile-nav {
+        margin: 1rem 0;
+    }
+
+    .mobile-menu-bottom {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+
+    .social-icons .icon:hover {
+        transform: scale(1.5);
+        transition: 0.3s;
+    }
+
+    .mobile-menu button {
+        margin: 1rem;
+        width: 90%;
+    }
+
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
 }
