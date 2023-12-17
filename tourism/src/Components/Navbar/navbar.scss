@@ -16,7 +16,7 @@
     position:fixed;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: var(--whiteColorDeam);
     width: 100%;
     padding: 1rem;
@@ -24,6 +24,10 @@
 
     .logo{
         color: var(--blackColor);
+        font-weight: 600;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
     }
 
     @media screen and (max-width:728px) {
@@ -68,11 +72,24 @@
                 }
             }
             .closeNavBar{
-                
+                position: absolute;
+                top: 1rem;
+                right: 1.5rem;
+                color: var(--PrimaryColor);
+                &:hover{
+                    color: var(--secondaryColors);
+                }
             }
         }
       
-    } {
-        
+    }
+    .toggleNavBar {
+        .icon{
+            font-size: 25px;
+            color: var(--PrimaryColor);
+            }
+            &:hover.icon{
+                color: var(--secondaryColors);
+            }
     }
 }
