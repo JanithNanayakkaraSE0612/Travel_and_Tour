@@ -21,4 +21,20 @@
     width: 100%;
     padding: 1rem;
     z-index: 1000;
+
+    .logo{
+        color: var(--blackColor);
+    }
+
+    @media screen and (max-width:728px) {
+        .navBar{
+            position: absolute;
+            background: var(--whiteColorDeam);
+            height: max-content;
+            width: 80%;
+            border-radius: 1rem;
+        }
+    } {
+        
+    }
 }
