@@ -10,9 +10,18 @@
 /* Colors and Styling */
 
 :root{
-    --PrimaryColor : hsl(199,100%,33%);
-    --SecondaryColor : hsl(187 , 85% , 43%);
-    --gradientColor : linear-gradient(to.right,hsl(187,))
+    --PrimaryColor:  hsl(199, 100%, 33%);
+  --secondaryColors: hsl (187, 85%, -43%);
+  --gradientColor: linear-gradient(from-right,
+  hsl(187, 85%, 43%), hsl(199,100%, 33%));
+  -whiteColor: hsl(0,0%, 100%);
+  --blackColor: ☐ hsl(201, 33%, 16%);
+  --text-color: hsl(240,4%,36%);
+  --whiteColorDeam: hsl(0,0%,93%);
+  --grayText: rgb(192,190,190);
+  ---inputColor: rgb(239, 239, 239);
+  ---bodycolor: rgb(240,240,246);
+  --cardbg: rgb(225, 225, 235);
 }
 a{
     text-decoration: none;

@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import {MdTravelExplore} from 'react-icons/md'
+import { IoIosCloseCircle } from "react-icons/io";
+import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -28,7 +30,22 @@ const Navbar = () => {
                 <li className="navItem">
                   <a href="#" className="navLink">Pages</a>
                 </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">News</a>
+                </li>
+                <li className="navItem">
+                  <a href="#" className="navLink">Contact</a>
+                </li>
+                <button className='btn'>
+                  <a href="#">Book Now</a>
+                </button>
               </ul>
+              <div className="closeNavBar">
+              <IoIosCloseCircle className="icon"/>
+              </div>
+              <div className="toggleNavBar">
+              <TbGridDots className='icon' />
+              </div>
             </div>
         </header>
     </section>
