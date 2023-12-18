@@ -9,7 +9,7 @@ function Search() {
             <div className="container">
                 <div className="left">
                     <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
-                    <p>Come experience the very pinnacle of luxury Caribbean all-inclusive vacations for couples at Sandals Resorts. Our luxury beach resorts, set along the most gorgeous tropical settings and exquisite beaches in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and Curaçao, feature unlimited gourmet dining, unique bars serving premium liquors and wines, and every land and water sport, including complimentary green fees at our golf resorts and PADI® certified scuba diving at most resorts. If you are planning a wedding, Sandals is the leader in Caribbean destination weddings and honeymoon packages.</p>
+                    <p>Sri Lanka - the jewel of the Indian Ocean, where pristine beaches meet lush rainforests and ancient ruins whisper tales of forgotten kingdoms. For a luxurious escape for two, Sri Lanka offers a plethora of options, from beachfront bliss to hilltop havens, all infused with the island's rich culture and warm hospitality</p>
                     <div className="search-col-2">
                         <div className="box">
                             <div>
@@ -39,13 +39,13 @@ function Search() {
                         <div className="input-wrap">
                             <label>Destination</label>
                             <select>
-                                <option value="1">Grande Antigua</option>
-                                <option value="1">Grenda</option>
-                                <option value="1">Emerald Bay</option>
-                                <option value="1">Bora Bora</option>
-                                <option value="1">Key West</option>
-                                <option value="1">Maldives</option>
-                                <option value="1">Barbados</option>
+                                <option value="1">Galle</option>
+                                <option value="1">Matara</option>
+                                <option value="1">Kandy</option>
+                                <option value="1">Badulla</option>
+                                <option value="1">Nuwara Eliya</option>
+                                <option value="1">Yala</option>
+                                <option value="1">Hikkaduwa</option>
                             </select>
                         </div>
                         <div className="date">
