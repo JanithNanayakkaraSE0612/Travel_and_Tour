@@ -9,7 +9,11 @@ function Search() {
             <div className="container">
                 <div className="left">
                     <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
-                    <p>Sri Lanka - the jewel of the Indian Ocean, where pristine beaches meet lush rainforests and ancient ruins whisper tales of forgotten kingdoms. For a luxurious escape for two, Sri Lanka offers a plethora of options, from beachfront bliss to hilltop havens, all infused with the island's rich culture and warm hospitality</p>
+                    <p>Sri Lanka - the jewel of the Indian Ocean, where pristine beaches meet
+                         lush rainforests and ancient ruins whisper tales of forgotten kingdoms.
+                          For a luxurious escape for two, Sri Lanka offers a plethora of options,
+                           from beachfront bliss to hilltop havens, all infused with the island's 
+                           rich culture and warm hospitality</p>
                     <div className="search-col-2">
                         <div className="box">
                             <div>
