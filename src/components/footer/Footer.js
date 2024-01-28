@@ -13,7 +13,6 @@ function Footer() {
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
                         <FaTwitter className='icon' />
-                        <FaPinterest className='icon' />
                         <FaYoutube className='icon' />
                     </div>
                 </div>
