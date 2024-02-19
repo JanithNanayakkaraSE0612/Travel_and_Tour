@@ -19,7 +19,7 @@ function Navbar() {
                 <h2>Down South.</h2>
             </div>
             <ul className="nav-menu">
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
+                <Link to='home' smooth={true} duration={500} ><li className='cursor-pointer'>Home</li></Link>
                 <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
                 <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
