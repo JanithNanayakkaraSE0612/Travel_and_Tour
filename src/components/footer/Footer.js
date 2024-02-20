@@ -9,6 +9,7 @@ function Footer() {
             <div className="container">
                 <div className="top">
                     <h3>Down South.</h3>
+                    <p></p>
                     <div className="social">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
@@ -20,9 +21,13 @@ function Footer() {
                     <div className="left">
                      
                     </div>
+
+                    <div className='center'>
+
+                    </div>
                     <div className="right">
                         <ul>
-                        
+
                         </ul>
                     </div>
                 </div>
