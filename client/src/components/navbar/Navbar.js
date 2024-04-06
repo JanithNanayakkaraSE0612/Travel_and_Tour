@@ -24,6 +24,7 @@ function Navbar() {
                 <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='contact' smooth={true} duration={500} ><li>Contact</li></Link>
             </ul>
             <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />
@@ -41,6 +42,7 @@ function Navbar() {
                 <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='contact' smooth={true} duration={500} ><li>Contact</li></Link>
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">

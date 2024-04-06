@@ -6,6 +6,7 @@ import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Search from './components/search/Search';
 import Selects from './components/selects/Selects';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Search />
       <Selects />
       <ImgCarousel />
+      <Contact/>
       <Footer />
     </div>
   );
